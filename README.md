@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 #images of the output
 
-![EvsR](saving\app\Images\1.EstimatedvsRealised_ensegy%20savings.png)
+![EvsR](saving/app/Images/1.EstimatedvsRealised_ensegy%20savings.png)
 ![total_savings](saving\app\Images\2.totalsavings.png)
 ![cumulated_savings](saving\app\Images\3.cumulated%20savings.png)
 
