@@ -1,5 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+#images of the output
+
+![EvsR](saving\app\Images\1.EstimatedvsRealised_ensegy%20savings.png)
+![total_savings](saving\app\Images\2.totalsavings.png)
+![cumulated_savings](saving\app\Images\3.cumulated%20savings.png)
+
 ## Getting Started
 
 First, run the development server:
