@@ -82,8 +82,8 @@ const CostChart = () => {
 
     return (
         <div className="flex flex-col justify-between  w-[1000px] bg-white border border-8 border-gray-300 ml-auto mr-auto pl-10 pr-10 pb-10 rounded-lg">
-            <div className="flex flex-row w-full justify-between bg-white items-center mt-10 mb-10 mr-10">
-                <label className="self-start mr-4 text-lg font-sans"> Financial savings</label>
+            <div className="flex flex-row w-full justify-between bg-white items-center mt-10 mb-10 mr-10 border border-3 border-blue-400 p-2">
+                <label className="self-start mr-4 text-lg font-semibold"> Financial savings</label>
                 <div className="flex flex-row ">
                     <div className="border border-black p-2 mr-2">
                         <DatePicker
@@ -103,7 +103,9 @@ const CostChart = () => {
                 </div>
             </div>
 
-            <HighchartsReact highcharts={Highcharts} options={options} />
+            <div className='border border-3 border-blue-400'>
+                <HighchartsReact highcharts={Highcharts} options={options} />
+            </div>
         </div>
     );
 };
